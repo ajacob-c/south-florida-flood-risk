@@ -1,0 +1,31 @@
+# Secrets
+.env
+
+# ArcGIS / Esri project files
+*.gdb/
+*.aprx
+*.atbx
+*.lock
+*.ppkx
+*.mpkx
+ArcGISProject/
+
+# Large / raw data (document download steps in data/README.md instead)
+data/raw/*
+!data/raw/.gitkeep
+*.tif
+*.tiff
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

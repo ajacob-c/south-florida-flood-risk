@@ -1,0 +1,22 @@
+name: sfl-flood
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - geopandas
+  - rasterio
+  - rioxarray
+  - rasterstats
+  - pandas
+  - numpy
+  - requests
+  - matplotlib
+  - folium
+  - python-dotenv
+  - jupyterlab
+  - pytest
+  - pip
+  - pip:
+      - arcgis
+      - py3dep
+      - pygris
